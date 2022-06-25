@@ -221,37 +221,26 @@ ul {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /* banner end */
-/* lorem ipsum */
-.contents {
-    padding-bottom: 0;
+/* specification beginning */
+.specification {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 94px;
+    padding-bottom: 0px;
 }
-.contents-title {
-    font-size: var(--detail-font);
-    line-height: 1.14;
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
-.contents-text {
-    color: var(--detail-color);
-    font-size: var(--detail-font);
-    line-height: 1.71;
-    margin: 0;
-}
-.contents-items {
+.specification__list {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.contents-items li {
+.specification__item {
     width: 270px;
     margin-right: 15px;
     margin-left: 15px;
 }
-.icon-contents {
-    width: 70px;
-    height: 70px;
-}
-.contents-icons {
+.specification__product {
     width: 270px;
     height: 120px;
     background-color: var(--background-contents);
@@ -259,6 +248,23 @@ ul {
     justify-content: center;
     align-items: center;
 }
+.specification__icon {
+    width: 70px;
+    height: 70px;
+}
+.specification__title {
+    font-size: var(--detail-font);
+    line-height: 1.14;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.specification__text {
+    color: var(--detail-color);
+    font-size: var(--detail-font);
+    line-height: 1.71;
+    margin: 0;
+}
+/* specification end */
 /* czym się zajmujemy */
 .expansion-title, .team-title, .clients-title {
     font-size: 36px;
