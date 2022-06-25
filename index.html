@@ -21,32 +21,26 @@
   <body>
     <header class="header">
       <div class="container header-section">
-        <nav class="navigation">
           <a href="index.html" class="logotype link"><span class="highlight">Web</span>Studio</a>
-          <ul class="navigation-items">
-            <li class="navigation-item">
-              <a href="index.html" class="link activepage">Agencja</a>
-            </li>
-            <li class="navigation-item"><a href="portfolio.html" class="link">Portfolio</a></li>
-            <li class="navigation-item"><a href="" class="link">Kontakt</a></li>
+        <nav>
+          <ul class="navigation">
+            <li class="navigation__item"><a href="index.html" class="navigation__link navigation__link--activepage">Agencja</a></li>
+            <li class="navigation__item"><a href="portfolio.html" class="navigation__link">Portfolio</a></li>
+            <li class="navigation__item"><a href="" class="navigation__link">Kontakt</a></li>
           </ul>
         </nav>
-        <ul class="header-contact">
-          <li class="contact-item1">
-            <a class="mail_contact link contact" href="mailto:info@devstudio.com">
-              <svg class="icon-mail">
+        <ul class="contact">
+          <li class="contact__item contact__item--start"><a class="contact__link" href="mailto:info@devstudio.com">
+              <svg class="contact__icon contact__icon--mail">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
-              info@devstudio.com</a
-            >
-          </li>
-          <li class="contact-item2">
-            <a href="tel:+48111111111" class="tel_contact link contact">
-              <svg class="icon-tel">
+              info@devstudio.com</a>
+            </li>
+          <li class="contact__item"><a href="tel:+48111111111" class="contact__link">
+              <svg class="contact__icon contact__icon--tel">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
-              +48 111 111 111</a
-            >
+              +48 111 111 111</a>
           </li>
         </ul>
       </div>
