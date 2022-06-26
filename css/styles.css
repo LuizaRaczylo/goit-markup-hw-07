@@ -307,14 +307,6 @@ ul {
     bottom: 4px;
 }
 /* assortment end */
-.clients-title {
-    font-size: 36px;
-    line-height: 1.16;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding-bottom: 50px;
-}
 /* team beginning */
 .team {
     background-color: #F5F4FA;
@@ -413,6 +405,14 @@ ul {
 }
 /* team-social end */
 /* nasi klienci*/
+.clients-title {
+    font-size: 36px;
+    line-height: 1.16;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-bottom: 50px;
+}
 .clients-logo {
     display: flex;
     justify-content: space-between;
