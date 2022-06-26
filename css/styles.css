@@ -231,6 +231,7 @@ ul {
     padding-bottom: 0px;
 }
 .specification__list {
+    list-style-type: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -265,8 +266,16 @@ ul {
     margin: 0;
 }
 /* specification end */
-/* czym się zajmujemy */
-.expansion-title, .team-title, .clients-title {
+/* assortment beginning */
+.assortment {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.assortment__title {
     font-size: 36px;
     line-height: 1.16;
     display: flex;
@@ -274,11 +283,15 @@ ul {
     margin: 0;
     padding-bottom: 50px;
 }
-.expansion-img {
+.assortment__list {
+    list-style-type: none;
     display: flex;
     justify-content: space-between;
 }
-.label {
+.assortment__item {
+    position: relative;
+}
+.assortment__label {
     font-weight: 700;
     font-size: 14px;
     width: 370px;
@@ -289,37 +302,45 @@ ul {
     justify-content: center;
     align-items: center;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-.expansion_pic {
-    position: relative;
-}
-.expansion_pic> .label {
     position: absolute;
     margin: 0;
     bottom: 4px;
 }
-/* nasz zespół */
+/* assortment end */
+.clients-title {
+    font-size: 36px;
+    line-height: 1.16;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-bottom: 50px;
+}
+/* team beginning */
 .team {
     background-color: #F5F4FA;
 }
-.team-name {
-    font-size: var(--subject-font);
-    line-height: 1.17;
-    text-align: center;
+.team_section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
-.team-name-line1 {
-    color: #212121;
-    font-weight: 500;
-    padding-top: 30px;
-    margin-top: 0;
-    margin-bottom: 10px;
+.team__title {
+    font-size: 36px;
+    line-height: 1.16;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-bottom: 50px;
 }
-.team-name-line2 {
-    color: var(--detail-color);
-    font-size: var(--subject-font);
-    margin-top: 0;
+.team__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
 }
-.team-item {
+.team__item {
     margin: 0;
     width: 270px;
     background-color: #FFFFFF;
@@ -327,10 +348,33 @@ ul {
     border-bottom-left-radius: 4px;
     box-shadow: 0px 2px rgba(0, 0, 0, 0.2), 0px 1px rgba(0, 0, 0, 0.14), 0px 1px rgba(0, 0, 0, 0.12)
 }
-.team-item_image {
+.team__picture {
     margin: 0;
 }
-.social-list {
+.team__img {
+    display: block;
+}
+.team__text {
+    font-size: var(--subject-font);
+    line-height: 1.17;
+    text-align: center;
+}
+.team__name {
+    color: #212121;
+    font-weight: 500;
+    padding-top: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.team__duty {
+    color: var(--detail-color);
+    font-size: var(--subject-font);
+    margin-top: 0;
+}
+/* team end */
+/* team-social beginning */
+.team-social-list {
+    list-style-type: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -338,15 +382,8 @@ ul {
     margin-right: 32px;
     padding-bottom: 18px;
 }
-.social-icon {
-    width: 20px;
-    height: 20px;
-    fill: var(--icons-color);
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.social-list_link {
+.team-social-list__link {
+    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -358,24 +395,23 @@ ul {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-list_link:hover svg,
-.social-list_link:focus svg {
+.team-social-list__link:hover svg,
+.team-social-list__link:focus svg {
     fill: var(--bright-color);
 }
-.social-list_link:hover,
-.social-list_link:focus {
+.team-social-list__link:hover,
+.team-social-list__link:focus {
     background-color: var(--brand-color);
 }
-.team-image {
-    display: block;
+.team-social-list__icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--icons-color);
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-items {
-    display: flex;
-    justify-content: space-between;
-}
-.team-items li {
-    width: 270px;
-}
+/* team-social end */
 /* nasi klienci*/
 .clients-logo {
     display: flex;
