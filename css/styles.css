@@ -440,10 +440,9 @@ body {
     color: var(--brand-color);
 }
 .footer-contact__list {
-    list-style-type: none;
-    width: 247px;
-    height: 81px;
     padding-top: 20px;
+    flex-wrap: wrap;
+    margin-right: auto;
 }
 .footer-contact__item {
     font-style: normal;
