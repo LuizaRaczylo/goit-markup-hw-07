@@ -404,8 +404,15 @@ ul {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* team-social end */
-/* nasi klienci*/
-.clients-title {
+/* clients beginning */
+.clients {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.clients__title {
     font-size: 36px;
     line-height: 1.16;
     display: flex;
@@ -413,16 +420,17 @@ ul {
     margin: 0;
     padding-bottom: 50px;
 }
-.clients-logo {
+.clients__list {
+    list-style-type: none;
     display: flex;
     justify-content: space-between;
 }
-.clients-item {
+.clients__item {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.clients-item_link {
+.clients__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -435,17 +443,17 @@ ul {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.clients-item_link:hover,
-.clients-item_link:focus {
+.clients__link:hover,
+.clients__link:focus {
     fill: var(--brand-color);
     border: 1px solid var(--brand-color);
     cursor: pointer;
 }
-.client-link {
+.clients__icon {
     width: 106px;
     height: 60px;
 }
-
+/* clients end */
 /* stopka*/
 .footer {
     background-color: var(--body-color);
