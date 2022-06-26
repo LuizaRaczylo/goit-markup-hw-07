@@ -18,6 +18,25 @@ body {
     --background-contents: #F5F4FA;
     --icons-color: #AFB1B8;
 }
+/* button beginning */
+.button {
+    width: 200px;
+    height: 50px;
+    background-color: var(--brand-color);
+    color: var(--bright-color);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: var(--subject-font);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button:hover,
+.button:active,
+.button:focus {
+    cursor: pointer;
+}
+/* button end */
 /* header beginning */
 .header {
     margin-left: 0;
@@ -101,7 +120,7 @@ body {
     margin-left: auto;
     padding: 0;
 }
-.contact__item--start {
+.contact__item:first-child {
     margin-right: 50px;
 }
 .contact__item:hover svg,
@@ -162,25 +181,15 @@ body {
     padding-top: 200px;
     color: var(--bright-color);
 }
-.banner__btn {
-    background-color: var(--brand-color);
-    width: 200px;
-    height: 50px;
-    font-size: var(--subject-font);
-    color: var(--bright-color);
+.button--banner {
     font-weight: 700;
     line-height: 1.875;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
     margin-top: 30px;
     margin-bottom: 200px;
-    transition-property: box-shadow;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.banner__btn:active,
-.banner__btn:hover {
+
+.button--banner:active,
+.button--banner:hover {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /* banner end */
@@ -569,22 +578,14 @@ body {
     outline: none;
     color: var(--bright-color);
 }
-.newsletter__btn {
-    width: 200px;
-    height: 50px;
+.button--newsletter {
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--bright-color);
-    font-size: 16px;
     line-height: 1.87;
-    border: none;
-    border-radius: 4px;
-    background: var(--brand-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    cursor: pointer;
 }
 .newsletter__icon {
     width: 24px;
@@ -604,44 +605,37 @@ body {
     padding-top: 94px;
     padding-bottom: 34px;
 }
-.filter__btn {
+.button--filter {
+    height: 38px;
+    color: #212121;
     background-color: #F5F4FA;
     font-family: Roboto;
-    font-size: var(--subject-font);
     font-weight: 500;
-    border: none;
     padding: 6px 22px;
     margin-right: 8px;
-    cursor: pointer;
     background: #F5F4FA;
-    border-radius: 4px;
     line-height: 1.6;
-    transition-property: background-color, color, box-shadow;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.filter__btn:hover,
-.filter__btn:active {
+.button--filter:hover,
+.button--filter:active {
     background-color: var(--brand-color);
     color: var(--bright-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
         0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    cursor: pointer;
 }
-.filter__btn--start {
+.button--filter:first-child {
     width: 121px;
 }
-.filter__btn--second {
+.button--filter:nth-child(2) {
     width: 93px;
 }
-.filter__btn--third {
+.button--filter:nth-child(3) {
     width: 114px;
 }
-.filter__btn--fourth {
+.button--filter:nth-child(4) {
     width: 91px;
 }
-.filter__btn--end {
+.button--filter:last-child {
     width: 121px;
 }
 /* filter end */
