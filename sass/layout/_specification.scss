@@ -1,0 +1,38 @@
+.specification__list {
+    justify-content: center;
+    align-items: center;
+}
+
+.specification__item {
+    width: 270px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.specification__product {
+    width: 270px;
+    height: 120px;
+    background-color: var(--background-contents);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.specification__icon {
+    width: 70px;
+    height: 70px;
+}
+
+.specification__title {
+    font-size: var(--detail-font);
+    line-height: 1.14;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.specification__text {
+    color: var(--detail-color);
+    font-size: var(--detail-font);
+    line-height: 1.71;
+    margin: 0;
+}

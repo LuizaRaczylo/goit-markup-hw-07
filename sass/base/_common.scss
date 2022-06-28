@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+    margin: 0;
+}
+
+:root {
+    --brand-color: #2196F3;
+    --detail-color: #757575;
+    --bright-color: #FFFFFF;
+    --body-color: #2F303A;
+    --detail-font: 14px;
+    --subject-font: 16px;
+    --background-contents: #F5F4FA;
+    --icons-color: #AFB1B8;
+}
+.link {
+    text-decoration: none;
+}
+.team__picture {
+    margin: 0;
+}
+
+.team__img {
+    display: block;
+}

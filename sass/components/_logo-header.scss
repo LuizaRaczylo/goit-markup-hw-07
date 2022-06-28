@@ -1,0 +1,8 @@
+.header-section__logo {
+    color: #000000;
+}
+
+.header-section__logo:hover,
+.header-section__logo:focus {
+    color: var(--brand-color);
+}

@@ -1,0 +1,12 @@
+.header {
+    margin-left: 0;
+    background: var(--bright-color);
+    border-bottom: 1px solid #ECECEC;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+}

@@ -1,0 +1,11 @@
+.social-icon {
+    width: 20px;
+    height: 20px;
+}
+.social-icon--team {
+    fill: var(--icons-color);
+    transition-property: fill;
+}
+.social-icon--footer {
+    fill: var(--bright-color);
+}

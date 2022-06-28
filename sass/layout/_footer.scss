@@ -1,0 +1,37 @@
+.footer {
+    background-color: var(--body-color);
+}
+
+.footer-section {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-left: auto;
+}
+.footer-contact__list {
+    display: block;
+    padding-top: 20px;
+}
+
+.footer-contact__item {
+    font-style: normal;
+    font-size: var(--detail-font);
+    line-height: 1.71;
+}
+
+.footer-contact__item--light {
+    color: var(--bright-color);
+}
+
+.footer-contact__link {
+    color: #FFFFFF99;
+}
+
+.footer-contact__link:hover,
+.footer-contact__link:focus {
+    color: var(--brand-color);
+}
+
+.footer-contact__link:visited {
+    color: #FFFFFF99;
+}

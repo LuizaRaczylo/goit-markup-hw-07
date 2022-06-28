@@ -1,0 +1,14 @@
+.button {
+    background-color: var(--brand-color);
+    color: var(--bright-color);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: var(--subject-font);
+}
+
+.button:hover,
+.button:active,
+.button:focus {
+    cursor: pointer;
+}

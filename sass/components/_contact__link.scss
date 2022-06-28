@@ -1,0 +1,12 @@
+.contact__link {
+    color: var(--detail-color);
+}
+
+.contact__link:visited {
+    color: var(--detail-color);
+}
+
+.contact__link:hover,
+.contact__link:focus {
+    color: var(--brand-color);
+}

@@ -1,0 +1,16 @@
+.section__title {
+    font-size: 36px;
+    line-height: 1.16;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding-bottom: 50px;
+}
+.section__title--footer {
+    color: var(--bright-color);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    margin-top: 0;
+    margin-bottom: 20px;
+}

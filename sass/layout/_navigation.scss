@@ -1,0 +1,28 @@
+.navigation {
+    font-weight: 500;
+    font-size: var(--detail-font);
+    line-height: 1.14;
+    align-items: center;
+}
+.navigation__item {
+    margin-right: 46px;
+    color: #212121;
+}
+
+.navigation__link:visited {
+    color: #212121;
+}
+
+.navigation__link--activepage::after {
+    content: "";
+    display: block;
+    position: relative;
+    border-top: 4px solid var(--brand-color);
+    border-radius: 2px;
+    top: 31px;
+}
+
+.navigation__link:hover,
+.navigation__link:focus {
+    color: var(--brand-color);
+}
