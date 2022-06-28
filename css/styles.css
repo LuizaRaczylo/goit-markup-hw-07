@@ -1,3 +1,4 @@
+/* BASE BEGINNING */
 *,
 *::before,
 *::after {
@@ -18,11 +19,31 @@ body {
     --background-contents: #F5F4FA;
     --icons-color: #AFB1B8;
 }
+/* container beginning */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* container end */
+/* transition beginning */
+.transition {
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+/* transition end */
+/* link beginning */
+.link {
+    text-decoration: none;
+}
+/* link end */
 /* section beginning */
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+/* BASE END */
 .section__list {
     margin: 0;
     padding: 0;
@@ -47,27 +68,13 @@ body {
     margin-bottom: 20px;
 }
 /* section end */
-/* container beginning */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-/* container end */
-/* transition beginning */
-.transition {
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-/* transition end */
+
 /* logo beginning */
 .logo {
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
     line-height: 1.19;
     margin-right: 93px;
-    text-decoration: none;
     transition-property: color;
 }
 .logo--color {
@@ -80,7 +87,6 @@ body {
     height: 20px;
 }
 .social-link {
-    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,10 +141,6 @@ body {
     margin-right: 46px;
     color: #212121;
 }
-.navigation__link {
-    text-decoration: none;
-    transition-property: color, fill;
-}
 .navigation__link:visited {
     color: #212121;
 }
@@ -170,9 +172,7 @@ body {
     fill: var(--brand-color);
 }
 .contact__link {
-    text-decoration: none;
     color: var(--detail-color);
-    transition-property: color, fill;
 }
 .contact__link:visited {
     color: var(--detail-color);
@@ -409,8 +409,6 @@ body {
 }
 .footer-contact__link {
     color: #FFFFFF99;
-    text-decoration: none;
-    transition-property: color;
 }
 .footer-contact__link:hover,
 .footer-contact__link:focus {
