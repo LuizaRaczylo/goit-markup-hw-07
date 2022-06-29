@@ -1,13 +1,15 @@
 .footer {
-    background-color: var(--body-color);
+    background-color: $sectionColor;
+
+
+        &-section {
+            display: flex;
+            padding-top: 60px;
+            padding-bottom: 60px;
+            margin-left: auto;
+        }
 }
 
-.footer-section {
-    display: flex;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    margin-left: auto;
-}
 .footer-contact__list {
     display: block;
     padding-top: 20px;
@@ -15,23 +17,24 @@
 
 .footer-contact__item {
     font-style: normal;
-    font-size: var(--detail-font);
+    font-size: $detailFont;
     line-height: 1.71;
-}
 
-.footer-contact__item--light {
-    color: var(--bright-color);
+        &--light {
+            color: $brightColor;
+        }
 }
-
+// reguła dla link
 .footer-contact__link {
-    color: #FFFFFF99;
-}
+    color: $linkFooterColor;
 
-.footer-contact__link:hover,
-.footer-contact__link:focus {
-    color: var(--brand-color);
-}
 
-.footer-contact__link:visited {
-    color: #FFFFFF99;
+        &:hover,
+        &:focus {
+            color: $brandColor;
+        }
+
+        &:visited {
+            color: $linkFooterColor;
+}
 }

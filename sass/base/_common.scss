@@ -5,8 +5,8 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #212121;
+    font-family: $bodyFont;
+    color: $bodyColor;
     margin: 0;
 }
 
@@ -22,11 +22,4 @@ body {
 }
 .link {
     text-decoration: none;
-}
-.team__picture {
-    margin: 0;
-}
-
-.team__img {
-    display: block;
 }

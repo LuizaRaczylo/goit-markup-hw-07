@@ -1,12 +1,13 @@
 .header {
     margin-left: 0;
-    background: var(--bright-color);
+    background: $brightColor;
     border-bottom: 1px solid #ECECEC;
-}
 
-.header-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 80px;
+
+        &-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 80px;
+        }
 }

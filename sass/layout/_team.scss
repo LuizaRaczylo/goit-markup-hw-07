@@ -1,22 +1,30 @@
 .team {
-    background-color: #F5F4FA;
+    background-color: $backgroundContents;
+
+        &__item {
+            margin: 0;
+            width: 270px;
+            background-color: $brightColor;
+            border-bottom-right-radius: $buttonBorderRadius;
+            border-bottom-left-radius: $buttonBorderRadius;
+            box-shadow: 0px 2px rgba(0, 0, 0, 0.2), 0px 1px rgba(0, 0, 0, 0.14), 0px 1px rgba(0, 0, 0, 0.12)
+        }
 }
-.team__item {
+.team__picture {
     margin: 0;
-    width: 270px;
-    background-color: #FFFFFF;
-    border-bottom-right-radius: 4px;
-    border-bottom-left-radius: 4px;
-    box-shadow: 0px 2px rgba(0, 0, 0, 0.2), 0px 1px rgba(0, 0, 0, 0.14), 0px 1px rgba(0, 0, 0, 0.12)
+}
+
+.team__img {
+    display: block;
 }
 .team__text {
-    font-size: var(--subject-font);
+    font-size: $subjectFont;
     line-height: 1.17;
     text-align: center;
 }
 
 .team__name {
-    color: #212121;
+    color: $bodyColor;
     font-weight: 500;
     padding-top: 30px;
     margin-top: 0;
@@ -24,7 +32,7 @@
 }
 
 .team__duty {
-    color: var(--detail-color);
-    font-size: var(--subject-font);
+    color: $detailColor;
+    font-size: $subjectFont;
     margin-top: 0;
 }

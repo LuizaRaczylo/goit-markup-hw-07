@@ -1,18 +1,21 @@
-.specification__list {
-    justify-content: center;
-    align-items: center;
-}
+.specification {
 
-.specification__item {
-    width: 270px;
-    margin-right: 15px;
-    margin-left: 15px;
+        &__list {
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__item {
+            width: 270px;
+            margin-right: 15px;
+            margin-left: 15px;
+        }
 }
 
 .specification__product {
     width: 270px;
     height: 120px;
-    background-color: var(--background-contents);
+    background-color: $backgroundContents;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,15 +27,15 @@
 }
 
 .specification__title {
-    font-size: var(--detail-font);
+    font-size: $detailColor;
     line-height: 1.14;
     margin-top: 30px;
     margin-bottom: 10px;
 }
 
 .specification__text {
-    color: var(--detail-color);
-    font-size: var(--detail-font);
+    color: $detailColor;
+    font-size: $detailFont;
     line-height: 1.71;
     margin: 0;
 }

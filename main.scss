@@ -1,4 +1,5 @@
 @import "./sass/utils/visually-hidden";
+@import "./sass/utils/variables";
 @import "./sass/base/common";
 @import "./sass/base/container";
 @import "./sass/base/section";
@@ -9,20 +10,15 @@
 
 @import "./sass/layout/header";
 @import "./sass/layout/navigation";
+@import "./sass/layout/contact";
 
 @import "./sass/components/logo-total";
 @import "./sass/components/logo-header";
 @import "./sass/components/logo-footer";
-@import "./sass/components/section__list";
-@import "./sass/components/section__title";
 @import "./sass/components/social__icon";
 @import "./sass/components/social-link";
 @import "./sass/components/button";
 
-@import "./sass/layout/contact";
-@import "./sass/components/contact__item";
-@import "./sass/components/contact__link";
-@import "./sass/components/contact__icon";
 
 @import "./sass/layout/banner";
 
@@ -35,11 +31,14 @@
 @import "./sass/layout/team-social-list";
 
 @import "./sass/layout/clients";
+@import "./sass/components/clients__link";
 
 @import "./sass/layout/footer";
-@import "./sass/themes/footer-contact__item";
 
 @import "./sass/layout/footer-join";
 
 @import "./sass/layout/newsletter";
-@import "./sass/themes/button--newsletter";
+
+@import "./sass/layout/filter";
+
+@import "./sass/layout/offer";

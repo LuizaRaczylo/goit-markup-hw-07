@@ -4,14 +4,15 @@
     align-items: center;
     width: 44px;
     height: 44px;
-    border-radius: 50%;
-}
-.social-link:hover svg,
-.social-link:focus svg {
-    fill: var(--bright-color);
-}
+    border-radius: $linkBorderRadius;
 
-.social-link:hover,
-.social-link:focus {
-    background-color: var(--brand-color);
+    &:hover svg,
+    &:focus svg {
+        fill: $brightColor;
+    }
+
+    &:hover,
+    &:focus {
+        background-color: $brandColor;
+    }
 }

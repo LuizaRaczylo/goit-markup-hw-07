@@ -3,47 +3,37 @@
     height: 86px;
     margin-left: 78px;
     padding-top: 12px;
-}
-.newsletter__form {
-    display: flex;
-    margin-top: 20px;
-}
 
+        &__form {
+            display: flex;
+            margin-top: 20px;
+        }
+}
+// reguły dla box
 .newsletter__box {
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 4px;
-    background: var(--body-color);
+    border-radius: $buttonBorderRadius;
+    background: $sectionColor;
     margin-right: 12px;
     padding-left: 15px;
-}
 
-.newsletter__box::placeholder {
-    font-size: var((--subject-font));
-    line-height: 1.25;
-    position: absolute;
-    top: 15px;
-    left: 15px;
-}
 
-.newsletter__box:focus {
-    outline: none;
-    color: var(--bright-color);
-}
+        &::placeholder {
+            font-size: $subjectFont;
+            line-height: 1.25;
+            position: absolute;
+            top: 15px;
+            left: 15px;
+        }
 
-.button--newsletter {
-    width: 200px;
-    height: 50px;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    line-height: 1.87;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        &:focus {
+            outline: none;
+            color: $brightColor;
+        }
 }
-
+// reguły dla icon
 .newsletter__icon {
     width: 24px;
     height: 24px;

@@ -452,8 +452,7 @@ body {
     height: 24px;
     margin-left: 24px;
 }
-/* newsletter end */
-/* filter beginning */
+
 .filter {
     display: flex;
     justify-content: center;
@@ -479,8 +478,7 @@ body {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
         0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-/* filter end */
-/* offer beginning */
+
 .container--offer {
     padding-bottom: 94px;
 }
@@ -509,11 +507,14 @@ body {
     position: relative;
     overflow: hidden;
 }
+
 .offer__picture:hover .offer__overlay,
 .offer__picture:focus .offer__overlay {
-    box-shadow: box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transform: translatey(0%);
 }
+
+/*
 .offer__img {
     display: block;
 }
@@ -550,8 +551,7 @@ body {
     font-size: var(--subject-font);
     line-height: 1.875;
 }
-/* offer end */
-/*
+
 .backdrop {
     position: fixed;
     left: 0;
@@ -566,8 +566,7 @@ body {
     visibility: hidden;
     pointer-events: none;
 }
-/* backdrop end */
-/*
+
 .modal {
     position: absolute;
     top: 50%;
