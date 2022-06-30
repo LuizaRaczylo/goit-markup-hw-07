@@ -8,7 +8,7 @@
             flex-wrap: wrap;
         }
 }
-// reguły dla item
+
 .offer__item {
     position: relative;
     width: 370px;
@@ -25,7 +25,7 @@
             margin-top: 30px;
 }
 }
-// reguły dla picture, img
+
 .offer__picture {
     margin: 0;
     position: relative;
@@ -42,7 +42,7 @@
 .offer__img {
     display: block;
 }
-// reguły dla overlay
+
 .offer__overlay {
     position: absolute;
     top: 0px;
@@ -55,19 +55,20 @@
     padding: 49px 45px 49px 24px;
     transform: translatey(100%);
     transition: transform 250ms ease;
+
+
+        &-text {
+            font-size: 18px;
+        }
 }
 
-.offer__overlay-text {
-    font-size: 18px;
-}
-// reguły dla tekstu overlay
 .offer__text {
     transform: translateY(0);
     background-color: $brightColor;
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
 }
-// reguły dla podpisu
+
 .offer__label {
     color: $bodyColor;
     font-weight: 700;

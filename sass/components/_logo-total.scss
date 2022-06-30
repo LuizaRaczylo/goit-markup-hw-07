@@ -4,8 +4,9 @@
     line-height: 1.19;
     margin-right: 93px;
     transition-property: color;
-}
 
-.logo--color {
-    color: $brandColor;
+
+        &--color {
+            color: $brandColor;
+        }
 }
