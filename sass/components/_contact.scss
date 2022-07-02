@@ -15,33 +15,32 @@
                 fill: $brandColor;
             }
         }
-}
-
-.contact__icon {
-            fill: $detailColor;
-            margin-right: 10px;
-    
-        &--mail {
-            width: 16px;
-            height: 12px;
+        &__icon {
+                    fill: $detailColor;
+                    margin-right: 10px;
+            
+                &--mail {
+                    width: 16px;
+                    height: 12px;
+                }
+            
+                &--tel {
+                    width: 10px;
+                    height: 16px;
+                }
         }
-    
-        &--tel {
-            width: 10px;
-            height: 16px;
+
+        &__link {
+            color: $detailColor;
+
+
+            &:visited {
+                color: $detailColor;
+            }
+
+            &:hover,
+            &:focus {
+                color: $brandColor;
+            }
         }
-}
-
-.contact__link {
-    color: $detailColor;
-
-
-    &:visited {
-        color: $detailColor;
     }
-
-    &:hover,
-    &:focus {
-        color: $brandColor;
-    }
-}

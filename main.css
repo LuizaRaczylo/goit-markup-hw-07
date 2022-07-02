@@ -141,12 +141,10 @@ body {
 .order-form__part:focus-within {
   fill: #2196F3;
 }
-
 .order-form__part--comment {
   height: 138px;
   margin-bottom: 20px;
 }
-
 .order-form__area {
   width: 448px;
   height: 40px;
@@ -160,7 +158,6 @@ body {
   border: 1px solid #2196F3;
   border-radius: 4px;
 }
-
 .order-form__icon {
   width: 18px;
   height: 18px;
@@ -168,7 +165,6 @@ body {
   left: 12px;
   bottom: 11px;
 }
-
 .order-form__text {
   resize: none;
   font-family: Roboto;
@@ -219,7 +215,6 @@ body {
   cursor: pointer;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .policy-accept__checkbox:checked + .policy-accept::before {
   background-color: #2196F3;
   outline: none;
@@ -251,7 +246,7 @@ body {
 
 .navigation {
   font-weight: 500;
-  font-size: #757575;
+  font-size: 14px;
   line-height: 1.14;
   align-items: center;
 }
@@ -260,7 +255,6 @@ body {
   margin-right: 46px;
   position: relative;
 }
-
 .navigation__link:visited {
   color: #212121;
 }
@@ -268,14 +262,17 @@ body {
   color: #2196F3;
 }
 
+.navigation__link--activepage {
+  color: #2196F3 !important;
+}
 .navigation__link--activepage::after {
   content: "";
+  width: 58px;
   display: block;
   position: absolute;
   border-top: 4px solid #2196F3;
   border-radius: 2px;
-  top: 28px;
-  left: 0;
+  top: 46px;
 }
 
 .contact {
@@ -289,7 +286,6 @@ body {
 .contact__item:hover svg, .contact__item:focus svg, .contact__item:visited svg {
   fill: #2196F3;
 }
-
 .contact__icon {
   fill: #757575;
   margin-right: 10px;
@@ -302,7 +298,6 @@ body {
   width: 10px;
   height: 16px;
 }
-
 .contact__link {
   color: #757575;
 }
@@ -398,7 +393,6 @@ body {
   line-height: 1.87;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
 .button--filter {
   height: 38px;
   color: #212121;
@@ -416,7 +410,6 @@ body {
   color: #FFFFFF;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
 .button--policy {
   width: 200px;
   height: 50px;
@@ -460,7 +453,6 @@ body {
   margin-right: 15px;
   margin-left: 15px;
 }
-
 .specification__product {
   width: 270px;
   height: 120px;
@@ -469,19 +461,16 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .specification__icon {
   width: 70px;
   height: 70px;
 }
-
 .specification__title {
   font-size: #757575;
   line-height: 1.14;
   margin-top: 30px;
   margin-bottom: 10px;
 }
-
 .specification__text {
   color: #757575;
   font-size: 14px;
@@ -519,21 +508,17 @@ body {
   border-bottom-left-radius: 4px;
   box-shadow: 0px 2px rgba(0, 0, 0, 0.2), 0px 1px rgba(0, 0, 0, 0.14), 0px 1px rgba(0, 0, 0, 0.12);
 }
-
 .team__picture {
   margin: 0;
 }
-
 .team__img {
   display: block;
 }
-
 .team__text {
   font-size: 16px;
   line-height: 1.17;
   text-align: center;
 }
-
 .team__name {
   color: #212121;
   font-weight: 500;
@@ -541,7 +526,6 @@ body {
   margin-top: 0;
   margin-bottom: 10px;
 }
-
 .team__duty {
   color: #757575;
   font-size: 16px;
@@ -562,7 +546,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .clients__icon {
   width: 106px;
   height: 60px;
@@ -599,7 +582,6 @@ body {
   display: block;
   padding-top: 20px;
 }
-
 .footer-contact__item {
   font-style: normal;
   font-size: 14px;
@@ -643,6 +625,11 @@ body {
   display: flex;
   margin-top: 20px;
 }
+.newsletter__icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 24px;
+}
 
 .newsletter__box {
   width: 358px;
@@ -663,12 +650,6 @@ body {
 .newsletter__box:focus {
   outline: none;
   color: #FFFFFF;
-}
-
-.newsletter__icon {
-  width: 24px;
-  height: 24px;
-  margin-left: 24px;
 }
 
 .filter {

@@ -6,13 +6,13 @@
     height: 44px;
     border-radius: $linkBorderRadius;
 
-    &:hover svg,
-    &:focus svg {
-        fill: $brightColor;
-    }
+        &:hover svg,
+        &:focus svg {
+            fill: $brightColor;
+        }
 
-    &:hover,
-    &:focus {
-        background-color: $brandColor;
-    }
+        &:hover,
+        &:focus {
+            background-color: $brandColor;
+        }
 }

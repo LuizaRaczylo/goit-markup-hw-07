@@ -8,6 +8,11 @@
             display: flex;
             margin-top: 20px;
         }
+        &__icon {
+            width: 24px;
+            height: 24px;
+            margin-left: 24px;
+        }
 }
 
 .newsletter__box {
@@ -19,7 +24,6 @@
     margin-right: 12px;
     padding-left: 15px;
 
-
         &::placeholder {
             font-size: $subjectFont;
             line-height: 1.25;
@@ -27,15 +31,8 @@
             top: 15px;
             left: 15px;
         }
-
         &:focus {
             outline: none;
             color: $brightColor;
         }
-}
-
-.newsletter__icon {
-    width: 24px;
-    height: 24px;
-    margin-left: 24px;
 }

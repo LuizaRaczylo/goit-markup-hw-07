@@ -27,7 +27,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-}
+        }
 }
 
 .order-form {
@@ -57,68 +57,67 @@
                     fill: $brandColor;
                 }
         }
-}
 
-.order-form__part--comment {
-            height: 138px;
-            margin-bottom: 20px;
-        }
+        &__part--comment {
+                    height: 138px;
+                    margin-bottom: 20px;
+                }
 
-.order-form__area {
-            width: 448px;
-            height: 40px;
-            border: 1px solid rgba(33, 33, 33, 0.2);
-            border-radius: $buttonBorderRadius;
-            margin-top: 4px;
-            padding-left: 42px;
-
-            &:focus {
-                    outline: none;
-                    border: 1px solid $brandColor;
+        &__area {
+                    width: 448px;
+                    height: 40px;
+                    border: 1px solid rgba(33, 33, 33, 0.2);
                     border-radius: $buttonBorderRadius;
+                    margin-top: 4px;
+                    padding-left: 42px;
+
+                    &:focus {
+                            outline: none;
+                            border: 1px solid $brandColor;
+                            border-radius: $buttonBorderRadius;
+                }
+            }
+
+        &__icon {
+                    width: 18px;
+                    height: 18px;
+                    position: absolute;
+                    left: 12px;
+                    bottom: 11px;
         }
-    }
 
-.order-form__icon {
-            width: 18px;
-            height: 18px;
-            position: absolute;
-            left: 12px;
-            bottom: 11px;
-}
-
-.order-form__text {
-            resize: none;
-            font-family: Roboto;
-            font-size: 12px;
-            line-height: 1.17;
-            width: 448px;
-            height: 120px;
-            border: 1px solid rgba(33, 33, 33, 0.2);
-            border-radius: $buttonBorderRadius;
-            margin-top: 4px;
-            padding: 12px 16px;
-
-
-                &::placeholder {
+        &__text {
+                    resize: none;
                     font-family: Roboto;
                     font-size: 12px;
                     line-height: 1.17;
-                    color: $detailColor;
-                    opacity: 0.5;
-                    position: absolute;
-                    top: 12px;
-                    left: 16px;
-        }
-
-                &:focus,
-                &:hover {
-                    outline: none;
-                    border: 1px solid $brandColor;
+                    width: 448px;
+                    height: 120px;
+                    border: 1px solid rgba(33, 33, 33, 0.2);
                     border-radius: $buttonBorderRadius;
-        }
-}
+                    margin-top: 4px;
+                    padding: 12px 16px;
 
+
+                        &::placeholder {
+                            font-family: Roboto;
+                            font-size: 12px;
+                            line-height: 1.17;
+                            color: $detailColor;
+                            opacity: 0.5;
+                            position: absolute;
+                            top: 12px;
+                            left: 16px;
+                }
+
+                        &:focus,
+                        &:hover {
+                            outline: none;
+                            border: 1px solid $brandColor;
+                            border-radius: $buttonBorderRadius;
+                }
+        }
+    }
 
 .policy-accept {
     font-size: 14px;
@@ -132,7 +131,6 @@
     margin-right: auto;
     margin-bottom: 30px;
 
-
         &::before {
             content: "";
             display: inline-block;
@@ -143,23 +141,21 @@
             cursor: pointer;
             transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
-}
-
-.policy-accept__checkbox:checked+.policy-accept::before {
-    background-color: $brandColor;
-    outline: none;
-    border: 1px solid $brandColor;
-    border-radius: 2px;
-    background-image: url(../images/checkbox.png);
-    background-position: 50% 50%;
-    background-size: cover;
+        &__checkbox:checked+.policy-accept::before {
+            background-color: $brandColor;
+            outline: none;
+            border: 1px solid $brandColor;
+            border-radius: 2px;
+            background-image: url(../images/checkbox.png);
+            background-position: 50% 50%;
+            background-size: cover;
+        }
 }
 
 .policy-accept__link {
     color: $brandColor;
 
-
         &:visited {
             color: $brandColor;
-}
+    }
 }

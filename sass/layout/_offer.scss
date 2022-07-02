@@ -14,7 +14,6 @@
     width: 370px;
     transition-property: box-shadow;
 
-
         &:hover,
         &:active {
             box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
@@ -30,7 +29,6 @@
     margin: 0;
     position: relative;
     overflow: hidden;
-
 
         &:hover .offer__overlay,
         &:focus .offer__overlay {
@@ -55,7 +53,6 @@
     padding: 49px 45px 49px 24px;
     transform: translatey(100%);
     transition: transform 250ms ease;
-
 
         &-text {
             font-size: 18px;
