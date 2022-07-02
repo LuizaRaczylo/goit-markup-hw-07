@@ -7,6 +7,7 @@
         &__item {
             color: $bodyColor;
             margin-right: 46px;
+            position: relative;
         }
 }
 
@@ -27,9 +28,10 @@
         &::after {
             content: "";
             display: block;
-            position: relative;
+            position: absolute;
             border-top: 4px solid $brandColor;
             border-radius: 2px;
-            top: 31px;
+            top: 28px;
+            left: 0;
         }
 }

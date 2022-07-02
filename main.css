@@ -258,6 +258,7 @@ body {
 .navigation__item {
   color: #212121;
   margin-right: 46px;
+  position: relative;
 }
 
 .navigation__link:visited {
@@ -270,10 +271,11 @@ body {
 .navigation__link--activepage::after {
   content: "";
   display: block;
-  position: relative;
+  position: absolute;
   border-top: 4px solid #2196F3;
   border-radius: 2px;
-  top: 31px;
+  top: 28px;
+  left: 0;
 }
 
 .contact {
